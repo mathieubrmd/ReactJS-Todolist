@@ -1,0 +1,62 @@
+@import url('../../Colors.css');
+
+.modal-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1000;
+    display: flex;
+}
+
+.modal {
+    position: relative;
+    color: var(--primary-text-color);
+    background-color: var(--text-primary-color);
+    margin: auto;
+    width: 90%;
+    border-radius: 4px;
+    overflow: scroll;
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: 'row';
+    justify-content: space-between; 
+    align-items: center;
+    background-color: var(--default-primary-color);
+    color: var(--text-primary-color);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.modal-title {
+    font-size: 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.modal-cross {
+    font-size: 24px;
+    margin: 0;
+}
+
+.modal-header, .modal-content {
+    padding: 16px;
+}
+
+.modal-footer {
+    padding: 16px;
+    font-size: 11px;
+    text-transform: capitalize;
+}
+
+.modal-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}

@@ -1,0 +1,15 @@
+@import url('../../../Colors.css');
+
+.footer {
+    font-size: 11px;
+    background-color: var(--default-primary-color); 
+    position: relative;
+    bottom: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    color: var(--light-primary-color);
+    text-align: center;
+    max-width: 768px;
+    margin: auto;
+}

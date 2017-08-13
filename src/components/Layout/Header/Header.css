@@ -1,0 +1,29 @@
+@import url('../../../Colors.css');
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: 'row';
+    background-color: var(--default-primary-color);
+    align-items: center;
+    height: 64px;
+    margin: 0%;
+    justify-content: space-between;
+}
+
+.header-title {
+    padding: 0;
+    margin: 0 0 0 8px;
+    color: var(--text-primary-color);
+    text-transform: uppercase;
+}
+
+.header-button {
+    padding: 0 8px 0 0;
+    font-size: 36px;
+    height: 64px;
+    line-height: 64px;
+    width: 32px;
+    text-align: right;
+    color: var(--text-primary-color);
+}

@@ -1,0 +1,62 @@
+@import url('../../Colors.css');
+
+.todo-container {
+    border-bottom: 1px solid var(--divider-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+    flex: 1 5 1;
+}
+
+.todo-left-button {
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid var(--divider-color);
+    color: white;
+    /* transition: all 0.5s; */
+}
+
+.todo-left-button:hover {
+    background-color: var(--green-color);
+    border-color: var(--green-color);
+}
+
+.todo-left-button-check {
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid var(--divider-color);
+    color: white;
+    /* ransition: all 0.5s; */
+    background-color: var(--green-color);
+    border-color: var(--green-color);
+}
+
+.todo-left-button-check:hover {
+    background-color: white;
+    border-color: var(--divider-color);
+}
+
+
+.todo-right-button {
+    padding: 0;
+    margin: 0;
+    font-size: 28px;
+    color: var(--red-color);
+}
+
+.todo-title {
+    padding: 0;
+    margin: 0 8px 0 8px;
+    flex: 1;
+    color: var(--primary-text-color);
+}

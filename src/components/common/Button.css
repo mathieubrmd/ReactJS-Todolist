@@ -1,0 +1,24 @@
+@import url('../../Colors.css');
+
+.button-container {
+    background-color: var(--accent-color);
+    border-radius: 1px;
+    padding: 12px;
+    color: var(--text-primary-color);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid var(--accent-color);
+    -webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+}
+
+.button-container:hover {
+    color: var(--accent-color);
+    background-color: var(--text-primary-color);
+}
+
+.button-text {
+    margin: 0%;
+}
